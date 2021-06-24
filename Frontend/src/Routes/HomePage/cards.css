@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(81, 94, 106);
+  color: rgb(255, 255, 255);
+}
+
+.cardPage {
+  padding-top: 80px;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  height: 35vh;
+  width: 35vh;
+  cursor: pointer;
+  margin: 1vh;
+  background-color: rgb(196, 196, 196);
+}
+
+.cards:hover {
+  transition: 0.5s;
+  transform: scale(1.03);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cardTable {
+  z-index: 1000;
+  resize: both;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 35vh;
+  opacity: 0.2;
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 35vh;
+  width: 35vh;
+  color: rgb(0, 0, 0);
+}

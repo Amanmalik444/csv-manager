@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  position: fixed;
+  background-color: rgb(68, 68, 68);
+  height: 48px;
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  z-index: 5000;
+}
+
+.importantButtonsNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 5%;
+}
+
+.navButton {
+  height: 37px;
+  width: 160px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgba(142, 142, 142, 0);
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 2px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.navButton:hover {
+  background-color: rgb(152, 152, 152);
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+}
+
+.onRouteNavButton {
+  height: 37px;
+  width: 250px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(18, 18, 18);
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 2px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.onRouteNavButton:hover {
+  background-color: rgb(47, 47, 47);
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+}

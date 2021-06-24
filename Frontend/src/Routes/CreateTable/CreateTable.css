@@ -1,0 +1,82 @@
+.container {
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.uploadButton {
+  height: 37px;
+  width: 140px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(20, 118, 0);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  margin: 5px;
+  margin-top: 2vh;
+}
+
+.uploadButton:hover {
+  background-color: rgb(30, 179, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+.changeButton {
+  height: 37px;
+  width: 140px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(81, 94, 106);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  margin: 5px;
+  margin-top: 2vh;
+}
+
+.changeButton:hover {
+  background-color: rgb(134, 155, 175);
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+}
+.abortButton {
+  height: 37px;
+  width: 140px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(160, 0, 0);
+  border: 1px solid rgb(255, 253, 253);
+  border-radius: 2px;
+  margin: 5px;
+  margin-top: 2vh;
+}
+
+.abortButton:hover {
+  background-color: rgb(221, 0, 0);
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 2px 8px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 2px;
+}
+
+.custom-file-upload:hover {
+  background-color: rgb(134, 155, 175);
+  transition: 0.5s;
+}
+
+.originalFileInput::-webkit-file-upload-button {
+  display: none;
+}
